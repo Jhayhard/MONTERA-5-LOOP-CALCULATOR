@@ -28,7 +28,7 @@ public class Montera5Loop {
                     case 5 -> isCorrect = solveSimplySquareRootsProblem();
                     case 0 -> {
                         System.out.println("Goodbye! Thank you for using the Math Problem Solver.");
-                        return;  // Exit the program if the user chooses to exit
+                        return;  
                     }
                     default -> {
                         System.out.println("Invalid choice. Please enter a valid option.");
@@ -36,20 +36,20 @@ public class Montera5Loop {
                     }
                 }
                 
-                // Display whether the user's answer is correct
+                
                 if (isCorrect) {
                     System.out.println("Correct!");
                 } else {
                     System.out.println("Incorrect. Please try again.");
                 }
                 
-                // Ask the user if they want to continue
+                
                 System.out.print("Do you want to continue? (yes/no): ");
                 String continueOption = scanner.next().toLowerCase();
                 
                 if (!continueOption.equals("yes")) {
                     System.out.println("Goodbye! Thank you for using the Math Problem Solver.");
-                    break;  // Exit the loop if the user chooses not to continue
+                    break;  
                 }
                 
             } while (true);
