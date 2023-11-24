@@ -27,7 +27,7 @@ public class Montera5Loop {
                     case 4 -> isCorrect = solveEquationOneUnknownProblem();
                     case 5 -> isCorrect = solveSimplySquareRootsProblem();
                     case 0 -> {
-                        System.out.println("Goodbye! Thank you for using the Math Problem Solver.");
+                        System.out.println("Goodbye! Thank you for using the Math Problem Solver Engineer. PADAYOOOOON!");
                         return;  
                     }
                     default -> {
